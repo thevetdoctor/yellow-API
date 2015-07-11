@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="author" content="Ben Howdle and Dan Matthew">
+   <meta name="description" content="A responsive movie poster grabber">
+   <title>Yellow API project</title>
+   <!-- <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.2.min.js"></script>
+        <!--jQuery, linked from a CDN-->
+   <!--<script src="scripts.js"></script>
+   <script type="text/javascript" src="http://use.typekit.com/oya4cmx.js"></script>
+   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+-->
+   
+   <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+   
+   <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+ 
+   <<style>
+   .padding {
+               padding-right: 20px;
+    s           font-size: 25px;
+      }
+
+   .foot {
+
+         padding-right: 20px;
+         font-size: 25px;
+         font-style: italic;
+         color : #33f;
+   }
+
+   #breadcrumb {
+         background-color: white;
+         width: 600px;
+         margin-top: 30px;
+         margin-left: 100px;
+         border-radius: 25px;
+         right: auto;
+   }
+
+   .row {
+
+      display: block;
+   }
+
+
+  #breadcrumb li {
+         list-style: none;
+         padding: .3em;
+         display: block;
+         font-size: 20px;
+         color: #666;
+   }
+
+   .padding a  {
+
+      color: #000;
+   }
+
+   .row .col-md-6 h3 {
+
+      padding-bottom: 20px;
+      color: white;
+   }
+
+   .row .col-md-6 h1 {
+
+      color: white;
+      margin: 0px;
+   }
+
+   .row {
+
+      display: block;
+   }
+   select {
+
+      height: 35px;
+      width: 200px;
+      border-radius: 6px;
+   }
+
+   
+      </style> 
+   
+</head>
+<body style="background-image: url('bg.jpg'); background-repeat: no-repeat; background-size: cover; padding-bottom:70px;">
+<div class="container-fluid">
+
+   <!--<div class="row"></div>-->
+
+   <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6"><h1>Welcome to Canada</h1>
+
+         <h3>Let's find you the closest hotel accomodation</h3></div>
+
+      <div class="col-md-3"></div>
+   </div>
+
+   <div class="row"></div>
+
+   <div class="row">
+      <div class="col-xs-6 col-md-2"></div>
+      <div class="col-xs-6 col-md-8">
+
+            <!-- Single button -->
+            <div id="fetch">
+         <!--      <div class="btn-group">
+               <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Toronto <span class="caret"></span>
+               </button>    
+               <ul class="dropdown-menu">
+                   <li><a href="#">Ontario</a></li>
+                   <li><a href="#">Ottawa</a></li>
+                   <li><a href="#">Lacombe</a></li>
+                   <li role="separator" class="divider"></li> 
+                   <li><a href="#">Separated link</a></li>
+               </ul>
+               
+               -->
+         <select>
+            <option value="ontario">Ontario</option>
+            <option value="toronto">Toronto</option>
+            <option value="ottawa">Ottawa</option>
+            <option value="orillia">Orillia</option>
+          </select> 
+          <!--  <input class="btn btn-default" type="text" placeholder="Enter your state" id="term" /> -->
+         
+         
+                <button id="myGet" class="btn btn-success">Search Canada</button> 
+            
+
+      </div>
+      <div class="col-xs-6 col-md-2"></div>
+   </div>
+
+  <div id="breadcrumb" class="row"></div>
+
+   <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col.md-4">
+         <footer class="navbar navbar-fixed-bottom">
+
+            <p class="padding"><a class="foot" href="http://www.animalworldltd.com">Obafemi @ Andela Class X</a></p>
+
+         </footer>
+      </div>
+      <div class="col-md-4"></div>
+   </div>
+</div>
+
+<script type="text/javascript" src="json.js"></script>
+</body>
+</html>
