@@ -14,8 +14,8 @@ $(document).ready(function () {
     for( var i = 0; i < results.listings.length; i++) {
       //console.log(results.listings[i].name +  ", " + results.listings[i].address.city);
       $('#breadcrumb').append( $('<li></li>', {
-        'text': results.listings[i].name +  ", " + results.listings[i].address.city
-      }) )
+        'text': results.listings[i].name +  ", " + results.listings[i].address.city + ", " + results.listings[i].address.prov
+      }) );
     }
     
   }

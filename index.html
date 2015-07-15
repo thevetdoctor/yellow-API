@@ -40,13 +40,7 @@
          right: auto;
    }
 
-   .row {
-
-      display: block;
-   }
-
-
-  #breadcrumb li {
+    #breadcrumb li {
          list-style: none;
          padding: .3em;
          display: block;
@@ -57,6 +51,7 @@
    .padding a  {
 
       color: #000;
+      text-align: right;
    }
 
    .row .col-md-6 h3 {
@@ -126,7 +121,7 @@
             <option value="ottawa">Ottawa</option>
             <option value="orillia">Orillia</option>
           </select> 
-          <!--  <input class="btn btn-default" type="text" placeholder="Enter your state" id="term" /> -->
+           <input id="term" class="btn btn-default" type="text" placeholder="Enter your state"/>
          
          
                 <button id="myGet" class="btn btn-success">Search Canada</button> 
@@ -136,14 +131,14 @@
       <div class="col-xs-6 col-md-2"></div>
    </div>
 
-  <div id="breadcrumb" class="row"></div>
+  <div id="breadcrumb"><ol></ol></div>
 
    <div class="row">
       <div class="col-md-4"></div>
       <div class="col.md-4">
          <footer class="navbar navbar-fixed-bottom">
 
-            <p class="padding"><a class="foot" href="http://www.animalworldltd.com">Obafemi @ Andela Class X</a></p>
+            <p class="text-right"><a class="foot" href="http://www.animalworldltd.com">Obafemi @ Andela Class X</a></p>
 
          </footer>
       </div>
